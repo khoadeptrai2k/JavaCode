@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppMobile311</string>
+    <string name="invalid_property">Please enter Property Type</string>
+    <string name="invalid_bedroom" />
+    <string name="invalid_datetime">Please enter DateTime</string>
+    <string name="invalid_price">Please enter Price</string>
+    <string name="invalid_furniture">Please enter Furniture</string>
+    <string name="invalid_note">Please enter Note</string>
+    <string name="invalid_reporter">Please enter Reporter</string>
+</resources>

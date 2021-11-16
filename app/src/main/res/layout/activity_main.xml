@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Home"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_PropertyType"
+        android:hint="Property Type"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_Bedroom"
+        android:hint="Bedrooms"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_Datetime"
+        android:hint="Date and Time"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_Price"
+        android:hint="Monthly rent price"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_Furniture"
+        android:hint="Furniture"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_Note"
+        android:hint="Note"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_Reporter"
+        android:hint="Name of the reporter"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/app_Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:text="submit" />
+</LinearLayout>
